@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 person_model = YOLO("yolo11s.pt")
-potazos_model = YOLO(r"V:\RetailAI\runs\detect\train\weights\best.pt")
+product_model = YOLO("models/product_model.pt")
 
 cap = cv2.VideoCapture(0)
 
